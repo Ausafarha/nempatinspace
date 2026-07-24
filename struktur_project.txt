@@ -1,0 +1,17 @@
+Folder PATH listing for volume DATA
+Volume serial number is 00000073 0E74:1EB9
+D:.
+¦   index.html
+¦   kontak.html
+¦   layanan.html
+¦   profil.html
+¦   struktur_project.txt
+¦   testimoni.html
+¦   
++---assets
+    ¦   script.js
+    ¦   style.css
+    ¦   
+    +---image
+            1.png
+            
