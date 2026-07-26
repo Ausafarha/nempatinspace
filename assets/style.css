@@ -494,3 +494,50 @@ footer{ border-top:1px solid var(--line); padding:44px 0 90px;}
 @media (prefers-reduced-motion: reduce){
   *{ animation:none !important; transition:none !important;}
 }
+/* ---------- RULES / KETENTUAN BARANG ---------- */
+.rules-card {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 32px;
+  padding: 48px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+  box-shadow: var(--shadow);
+}
+
+.rules-info h2 {
+  font-size: clamp(24px, 3vw, 34px);
+  margin-top: 14px;
+}
+
+.rules-info p {
+  margin-top: 14px;
+  font-size: 15.5px;
+}
+
+.rules-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--cream-2);
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  padding: 16px;
+}
+
+.rules-media img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px -10px rgba(43, 32, 21, 0.15);
+}
+
+@media (max-width: 900px) {
+  .rules-card {
+    grid-template-columns: 1fr;
+    padding: 32px 24px;
+    gap: 28px;
+  }
+}
