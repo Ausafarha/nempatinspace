@@ -521,17 +521,19 @@ footer{ border-top:1px solid var(--line); padding:44px 0 90px;}
   display: flex;
   justify-content: center;
   align-items: center;
-  background: var(--cream-2);
+  background: #ffffff; /* Biar match sama background putih gambarnya */
   border: 1px solid var(--line);
   border-radius: 20px;
-  padding: 16px;
+  padding: 20px;
+  overflow: hidden;
 }
 
 .rules-media img {
-  max-width: 100%;
+  max-width: 320px; /* Bikin batas lebar gambar biar proporsional */
+  width: 100%;
   height: auto;
-  border-radius: 12px;
-  box-shadow: 0 10px 25px -10px rgba(43, 32, 21, 0.15);
+  object-fit: contain;
+  margin: 0 auto;
 }
 
 @media (max-width: 900px) {
